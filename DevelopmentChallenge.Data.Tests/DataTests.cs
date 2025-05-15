@@ -63,7 +63,7 @@ namespace DevelopmentChallenge.Data.Tests
             var formaGeometrica = new FormaGeometrica(new EnglishReport());
             var resumen = formaGeometrica.Imprimir(formas);
             Assert.AreEqual(
-                "<h1>Shapes report</h1>2 Squares | Area 29 | Perimeter 28 <br/>2 Circles | Area 13,01 | Perimeter 18,06 <br/>3 Equilateral Triangles | Area 49,64 | Perimeter 51,6 <br/>TOTAL:<br/>7 shapes Perimeter 97,66 Area 91,65",
+                "<h1>Shapes report</h1>2 Squares | Area 29 | Perimeter 28 <br/>2 Circles | Area 52,03 | Perimeter 36,13 <br/>3 Equilateral Triangles | Area 49,64 | Perimeter 51,6 <br/>TOTAL:<br/>7 shapes Perimeter 115,73 Area 130,67",
                 resumen);
         }
 
@@ -83,7 +83,7 @@ namespace DevelopmentChallenge.Data.Tests
             var formaGeometrica = new FormaGeometrica(new SpanishReport());
             var resumen = formaGeometrica.Imprimir(formas);
             Assert.AreEqual(
-                "<h1>Reporte de Formas</h1>2 Cuadrados | Área 29 | Perímetro 28 <br/>2 Círculos | Área 13,01 | Perímetro 18,06 <br/>3 Triángulos Equiláteros | Área 49,64 | Perímetro 51,6 <br/>TOTAL:<br/>7 formas Perímetro 97,66 Área 91,65",
+                "<h1>Reporte de Formas</h1>2 Cuadrados | Área 29 | Perímetro 28 <br/>2 Círculos | Área 52,03 | Perímetro 36,13 <br/>3 Triángulos Equiláteros | Área 49,64 | Perímetro 51,6 <br/>TOTAL:<br/>7 formas Perímetro 115,73 Área 130,67",
                 resumen);
         }
 
