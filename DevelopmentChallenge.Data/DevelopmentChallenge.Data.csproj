@@ -45,6 +45,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\FormaGeometrica.cs" />
+	<Compile Include="Contracts\IGeometricShape.cs" />
+	<Compile Include="Contracts\IReport.cs" />
+	<Compile Include="Enums\Shape.cs" />
+	<Compile Include="Implementations\BaseReport.cs" />
+	<Compile Include="Implementations\Circle.cs" />
+	<Compile Include="Implementations\EnglishReport.cs" />
+	<Compile Include="Implementations\EquilateralTriangle.cs" />
+	<Compile Include="Implementations\ItalianReport.cs" />
+	<Compile Include="Implementations\Rectangle.cs" />
+	<Compile Include="Implementations\SpanishReport.cs" />
+	<Compile Include="Implementations\Square.cs" />
+	<Compile Include="Implementations\Trapezoid.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
